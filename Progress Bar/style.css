@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background-color: rgb(223, 237, 249);
+}
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.header h2 {
+    text-align: center;
+}
+.progress-container {
+    width: 100%;
+    height: 8px;
+}
+.content
+{
+    background-color: rgb(223, 237, 249);
+    margin: 200px 200px 200px 200px;
+    font-size: xx-large;
+}
+.progress-bar {
+    height: 8px;
+    background: #01f546;
+    width: 0%;
+}
